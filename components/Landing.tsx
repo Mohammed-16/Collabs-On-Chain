@@ -29,7 +29,7 @@ export const Landing = () => {
 			<div className='bgLanding md:grid md:grid-cols-2 '>
 				<div></div>
 				<main className='  flex flex-col justify-center items-center space-y-20 min-h-screen  '>
-					<h1 className='text-2xl xl:text-2xl 2xl:text-2xl font-extrabold uppercase super font-Lexend '>
+					<h1 className='text-3xl font-extrabold uppercase super font-Lexend '>
 						Collabs-on-Chain
 					</h1>
 					<div className='flex flex-col justify-center items-center text-center space-y-2'>

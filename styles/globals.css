@@ -73,9 +73,20 @@
 	border-width: 5px;
 }
 .bgnft {
-	background-image: url('/nft.svg');
+	background-image: url('/nft.jpg');
 	background-size: cover;
 }
 .nftLine {
 	background: linear-gradient(90.01deg, #37357e 4.09%, #ab06a4 98.16%);
+}
+
+  .btn {
+	background-image: linear-gradient(212deg, rgba(243,115,255,0.342472022988883) 8%, rgba(46,1,48,0.922864214044993) 67%) !important;
+  }  
+.logo {
+	background-image: url('/logo.png');
+	background-size: cover;
+}
+.aligned{
+	align-items: flex-start !important;
 }

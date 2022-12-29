@@ -180,7 +180,7 @@ export const Form = () => {
             <>
               <button
                 onClick={() => setForm(true)}
-                className="sus w-full rounded-xl my-2 h-14 bg-[#5439CE] font-Outfit font-normal text-xl text-white"
+                className="sus w-full rounded-xl my-2 h-14 bg-[#5439CE] font-Outfit font-normal text-xl text-white btn"
               >
                 Add Member
               </button>
@@ -194,7 +194,7 @@ export const Form = () => {
                 </h1>
                 <button
                   onClick={() => setForm(true)}
-                  className="bg-[#6758E5FD] w-20 h-7 rounded-lg flex justify-center items-center font-normal text-white font-Outfit"
+                  className="bg-[#6758E5FD] w-20 h-7 rounded-lg flex justify-center items-center font-normal text-white font-Outfit btn"
                 >
                   + Add
                 </button>
@@ -362,7 +362,7 @@ export const Form = () => {
                       <div className="flex justify-between py-5 space-x-4">
                         <button
                           onClick={() => setForm(false)}
-                          className=" font-medium text-white font-Outfit p-2 border-2 w-full border-[#5439CE] rounded-3xl"
+                          className=" font-medium text-white font-Outfit p-2 border-2 w-full border-[#5439CE] rounded-3xl btn"
                         >
                           Cancel
                         </button>
@@ -371,7 +371,7 @@ export const Form = () => {
                             setForm(false);
                             AddMember();
                           }}
-                          className="font-medium  font-Outfit text-white w-full bg-[#5439CE] p-2 rounded-3xl"
+                          className="font-medium  font-Outfit text-white w-full bg-[#5439CE] p-2 rounded-3xl btn"
                         >
                           Add member +
                         </button>
